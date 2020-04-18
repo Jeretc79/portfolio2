@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Contact | Jeret Clark</title>
+  <!--<link rel="styles heet" type="text/css" href="assets/css/style.css">-->
+</head>
+
+<body>
+  <div class="view"
+    style="background-image: url('https://images.unsplash.com/photo-1524246218500-3dad00b8975d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="profile_bootstrap.html">Profile<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts_bootstrap.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Portfolio_bootstrap.html">Portfolio</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+    <header id="masthead" style="padding-left: 50px; padding-top: 50px">
+      <div id="after_submit"></div>
+      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row w-50">
+
+          <!-- <label class="required" for="name">Your name:</label><br />-->
+          <input class="form-control form-control-lg" type="text" placeholder="Your name">
+          <span id="name_validation" class="error_message"></span>
+        </div>
+        </br>
+        <div class="row w-50">
+          <!--  <label class="required" for="email">Your email:</label><br />-->
+          <input class="form-control" type="text" placeholder="Email">
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        </br>
+        <div class="row w-50">
+          <!--<input class="message" type="text" placeholder="message">-->
+          <textarea id="message" class="input" name="message" rows="7" cols="30"
+            placeholder="Enter your message"></textarea></textarea><br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+        </br>
+
+        <input id="submit_button" type="submit" value="Send email" />
+      </form>
+  </div>
+  </footer>
+</body>
+
+</html>
